@@ -1,9 +1,9 @@
 {
   "local": {
-    "@org/account": "http://localhost:3000/src/main.ts"
+    "@org/account": "https://peppy-licorice-83089c.netlify.app/main.js"
   },
   "dev": {
-    "@org/account": "http://localhost:3000/src/main.ts"
+    "@org/account": "https://peppy-licorice-83089c.netlify.app/main.js"
   },
   "staging": {},
   "prod": {}
