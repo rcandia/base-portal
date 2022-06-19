@@ -1,0 +1,10 @@
+{
+  "local": {
+    "@org/account": "http://localhost:3000/src/main.ts"
+  },
+  "dev": {
+    "@org/account": "http://localhost:3000/src/main.ts"
+  },
+  "staging": {},
+  "prod": {}
+}

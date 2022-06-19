@@ -1,0 +1,51 @@
+@import './fonts';
+
+* {
+  font-family: "Nunito", sans-serif;
+}
+
+.route-fade-out {
+  opacity: 0;
+  transition: all 0.3s ease-in-out;
+}
+.route-fade-in {
+  opacity: 1;
+  transition: all 0.3s ease-in-out;
+}
+
+body {
+  background: #F0F2F6;
+  margin: 0
+}
+
+#nprogress {
+  pointer-events: none;
+}
+
+#nprogress .bar {
+  background: #000;
+  position: fixed;
+  z-index: 10;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 6px
+}
+
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+
+::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #CCCCCC;
+  border-radius: 32px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #CCCCCC;
+}

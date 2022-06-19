@@ -1,0 +1,24 @@
+{
+  "routes": [
+    {
+      "type": "route",
+      "path": "/account",
+      "routes": [
+        {
+          "type": "application",
+          "name": "@org/account"
+        }
+      ]
+    },
+    {
+      "type": "route",
+      "routes": [
+        {
+          "type": "application",
+          "name": "@org/account"
+        }
+      ],
+      "default": true
+    }
+  ]
+}
